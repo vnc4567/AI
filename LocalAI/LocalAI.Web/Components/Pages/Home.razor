@@ -1,5 +1,7 @@
 ﻿@page "/"
+@using LocalAI.Web.EvaluatedCalls
 @using Microsoft.SemanticKernel
+@using System.Text.Json
 @rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
@@ -20,6 +22,10 @@
 
     private async Task GetPrompt()
     {
+        string evaluatedCallJson = await File.ReadAllTextAsync("./Assets/evaluatedCall.json");
+        
+        EvaluatedCall evaluatedCall = JsonSerializer.Deserialize<EvaluatedCall>(evaluatedCallJson);
+        
         if (!string.IsNullOrWhiteSpace(_prompt))
         {
             bool gotResponse = false;

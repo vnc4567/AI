@@ -1,0 +1,277 @@
+{
+    "_id": "6745a4a157178bf7ca4c0569",
+    "CreatedAt": "2024-11-26T10:36:17.416Z",
+    "GridId": "673c88a23634029945cee1a9",
+    "GridType": "SalesCompliant",
+    "FileName": "convoanalyzer_agentId_teamName_CallcenterNameAA_638682141749018734.WAV",
+    "UrlFile": "649d3f005c0321e635c7a9c3/campaigns/670d3a919138111be0f733b3/6745a49e4b5d16c537686337/convoanalyzer_agentId_teamName_CallcenterNameAA_638682141749018734.WAV",
+    "Status": "EvaluationSucceeded",
+    "Transcription": {
+      "ExternalId": "980995d2-8d04-4e0e-977d-ba881d624893",
+      "Summary": null,
+      "FullTranscript": "Vous avez certifié le client, Péline, bonjour. Nous avons un consoeur qui devait me passer le service pour prendre rendez-vous pour un dépannage en avant-départ. Et on a été coupé. Donc, si vous pouviez me repasser ce service-là. Oui, on va reprendre tout ça ensemble. Vous êtes à l'ordre. C'est pour une planification de rendez-vous ? Oui, exactement. D'accord. Je vais juste regarder mon côté, j'ai pas de disponibilité. La disponibilité de mon côté, donc oui, je vais voir avec le service planning. Oui, parce que justement, c'est le service qui a été fait et j'ai été couplé. D'accord. Je vous transfère de suite. Je vais les contacter dans un premier temps. Merci. Merci à vous, monsieur. Bonne journée. Merci, vous aussi. Merci.",
+      "Utterances": [
+        {
+          "Text": "Vous avez certifié le client, Péline, bonjour.",
+          "Words": [
+            {
+              "Word": "Vous",
+              "StartedOffsetInSeconds": "1.66",
+              "EndedOffsetInSeconds": "1.78",
+              "Confidence": "0.01"
+            },
+            {
+              "Word": "avez",
+              "StartedOffsetInSeconds": "1.84",
+              "EndedOffsetInSeconds": "2.00",
+              "Confidence": "0.02"
+            },
+            {
+              "Word": "certifié",
+              "StartedOffsetInSeconds": "2.06",
+              "EndedOffsetInSeconds": "2.36",
+              "Confidence": "0.01"
+            },
+            {
+              "Word": "le",
+              "StartedOffsetInSeconds": "2.40",
+              "EndedOffsetInSeconds": "2.52",
+              "Confidence": "0.02"
+            },
+            {
+              "Word": "client,",
+              "StartedOffsetInSeconds": "2.60",
+              "EndedOffsetInSeconds": "2.84",
+              "Confidence": "0.04"
+            },
+            {
+              "Word": "Péline,",
+              "StartedOffsetInSeconds": "2.84",
+              "EndedOffsetInSeconds": "3.10",
+              "Confidence": "0.06"
+            },
+            {
+              "Word": "bonjour.",
+              "StartedOffsetInSeconds": "3.10",
+              "EndedOffsetInSeconds": "8.67",
+              "Confidence": "0.04"
+            }
+          ],
+          "StartedOffsetInSeconds": "1.66",
+          "EndedOffsetInSeconds": "8.67",
+          "Speaker": 0,
+          "Channel": 0
+        },
+        {
+          "Text": "Nous avons un consoeur qui devait me passer le service pour prendre rendez-vous pour un dépannage en avant-départ.",
+          "Words": [
+            {
+              "Word": "Nous",
+              "StartedOffsetInSeconds": "8.71",
+              "EndedOffsetInSeconds": "8.87",
+              "Confidence": "0.82"
+            },
+            {
+              "Word": "avons",
+              "StartedOffsetInSeconds": "8.93",
+              "EndedOffsetInSeconds": "9.17",
+              "Confidence": "0.87"
+            },
+            {
+              "Word": "un",
+              "StartedOffsetInSeconds": "9.17",
+              "EndedOffsetInSeconds": "9.23",
+              "Confidence": "0"
+            },
+            {
+              "Word": "consoeur",
+              "StartedOffsetInSeconds": "9.23",
+              "EndedOffsetInSeconds": "9.71",
+              "Confidence": "0.64"
+            },
+            {
+              "Word": "qui",
+              "StartedOffsetInSeconds": "11.17",
+              "EndedOffsetInSeconds": "11.29",
+              "Confidence": "0.45"
+            },
+            {
+              "Word": "devait",
+              "StartedOffsetInSeconds": "11.33",
+              "EndedOffsetInSeconds": "11.55",
+              "Confidence": "0.43"
+            },
+            {
+              "Word": "me",
+              "StartedOffsetInSeconds": "11.55",
+              "EndedOffsetInSeconds": "11.67",
+              "Confidence": "0.54"
+            },
+            {
+              "Word": "passer",
+              "StartedOffsetInSeconds": "11.77",
+              "EndedOffsetInSeconds": "12.17",
+              "Confidence": "0.8"
+            },
+            {
+              "Word": "le",
+              "StartedOffsetInSeconds": "12.17",
+              "EndedOffsetInSeconds": "12.29",
+              "Confidence": "0.46"
+            },
+            {
+              "Word": "service",
+              "StartedOffsetInSeconds": "12.39",
+              "EndedOffsetInSeconds": "13.25",
+              "Confidence": "0.85"
+            },
+            {
+              "Word": "pour",
+              "StartedOffsetInSeconds": "14.05",
+              "EndedOffsetInSeconds": "14.17",
+              "Confidence": "0.2"
+            },
+            {
+              "Word": "prendre",
+              "StartedOffsetInSeconds": "14.25",
+              "EndedOffsetInSeconds": "14.53",
+              "Confidence": "0.39"
+            },
+            {
+              "Word": "rendez-vous",
+              "StartedOffsetInSeconds": "14.63",
+              "EndedOffsetInSeconds": "15.21",
+              "Confidence": "0.78"
+            },
+            {
+              "Word": "pour",
+              "StartedOffsetInSeconds": "15.31",
+              "EndedOffsetInSeconds": "15.47",
+              "Confidence": "0.28"
+            },
+            {
+              "Word": "un",
+              "StartedOffsetInSeconds": "15.49",
+              "EndedOffsetInSeconds": "15.65",
+              "Confidence": "0.38"
+            },
+            {
+              "Word": "dépannage",
+              "StartedOffsetInSeconds": "16.17",
+              "EndedOffsetInSeconds": "16.75",
+              "Confidence": "0.64"
+            },
+            {
+              "Word": "en",
+              "StartedOffsetInSeconds": "16.79",
+              "EndedOffsetInSeconds": "16.91",
+              "Confidence": "0.1"
+            },
+            {
+              "Word": "avant-départ.",
+              "StartedOffsetInSeconds": "16.97",
+              "EndedOffsetInSeconds": "17.69",
+              "Confidence": "0.71"
+            }
+          ],
+          "StartedOffsetInSeconds": "8.71",
+          "EndedOffsetInSeconds": "17.69",
+          "Speaker": 1,
+          "Channel": 0
+        },
+        {
+          "Text": "Et on a été coupé.",
+          "Words": [
+            {
+              "Word": "Et",
+              "StartedOffsetInSeconds": "18.19",
+              "EndedOffsetInSeconds": "18.31",
+              "Confidence": "0.97"
+            },
+            {
+              "Word": "on",
+              "StartedOffsetInSeconds": "18.39",
+              "EndedOffsetInSeconds": "18.51",
+              "Confidence": "0.99"
+            },
+            {
+              "Word": "a",
+              "StartedOffsetInSeconds": "18.49",
+              "EndedOffsetInSeconds": "18.59",
+              "Confidence": "0.93"
+            },
+            {
+              "Word": "été",
+              "StartedOffsetInSeconds": "18.63",
+              "EndedOffsetInSeconds": "18.79",
+              "Confidence": "1"
+            },
+            {
+              "Word": "coupé.",
+              "StartedOffsetInSeconds": "18.87",
+              "EndedOffsetInSeconds": "19.15",
+              "Confidence": "0.91"
+            }
+          ],
+          "StartedOffsetInSeconds": "18.19",
+          "EndedOffsetInSeconds": "19.15",
+          "Speaker": 1,
+          "Channel": 0
+        }
+      ],
+      "AudioUrl": "https://api.gladia.io/file/77a0bb84-c571-441e-b667-13e312c5e116"
+    },
+    "CallDetails": {
+      "AgentId": "agentId",
+      "FileIntegratedAt": "2024-11-26T10:36:16.000Z",
+      "DurationInSeconds": "85.658413",
+      "TeamName": "teamName",
+      "CallCenterName": "CallcenterNameAA"
+    },
+    "Evaluation": {
+      "StartedAt": "2024-12-05T16:51:38.473Z",
+      "EndedAt": "2024-12-05T16:52:11.149Z",
+      "IsObjectiveReached": true,
+      "CompliantStatus": "NonCompliant",
+      "Score": "1.6",
+      "MaxScore": "2.2",
+      "MinPartialScore": null,
+      "MaxPartialScore": null,
+      "GradedCriteria": [
+        {
+          "Category": "Accueil",
+          "CriterionName": "Accueil chaleureux",
+          "Comment": "L'accueil de l'agent était correct mais manquait légèrement d'enthousiasme.",
+          "Appreciation": "partiellement conforme",
+          "CompliantStatus": "PartiallyCompliant",
+          "Score": "0.6",
+          "MaxScore": "1.2",
+          "KeyPoints": [
+            {
+              "StartedOffsetInSeconds": "1.66",
+              "Reason": "L'agent salue le client avec un ton correct mais sans grande chaleur."
+            }
+          ]
+        },
+        {
+          "Category": "Résolution",
+          "CriterionName": "L'agent comprend bien le besoin du client",
+          "Comment": "L'agent a correctement identifié le besoin du client de reprendre un rendez-vous coupé.",
+          "Appreciation": "conforme",
+          "CompliantStatus": "Compliant",
+          "Score": "1",
+          "MaxScore": "1",
+          "KeyPoints": [
+            {
+              "StartedOffsetInSeconds": "18.0",
+              "Reason": "L'agent confirme comprendre le besoin de reprendre un rendez-vous interrompu."
+            }
+          ]
+        }
+      ],
+      "Summary": ""
+    },
+    "FileDestination": "Omni",
+    "UpdatedAt": "2024-12-05T16:52:19.408Z",
+    "ExternalReferenceId": "649d3f005c0321e635c7a9c3"
+}
