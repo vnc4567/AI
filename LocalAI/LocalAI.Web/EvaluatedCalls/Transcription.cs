@@ -4,15 +4,15 @@ namespace LocalAI.Web.EvaluatedCalls;
 
 public sealed class Transcription
 {
-    public string ExternalId { get; private set; }
+    public string ExternalId { get;  set; }
 
-    public string Summary { get; private set; }
+    public string Summary { get;  set; }
 
-    public string FullTranscript { get; private set; }
+    public string FullTranscript { get;  set; }
 
-    public IReadOnlyList<TranscriptionUtterance> Utterances { get; private set; }
+    public IReadOnlyList<TranscriptionUtterance> Utterances { get;  set; }
 
-    public string AudioUrl { get; private set; }
+    public string AudioUrl { get;  set; }
 
     public string PrintUtterancesToString()
     {

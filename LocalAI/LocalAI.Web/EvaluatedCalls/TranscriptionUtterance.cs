@@ -2,17 +2,17 @@ namespace LocalAI.Web.EvaluatedCalls;
 
 public sealed record TranscriptionUtterance
 {
-    public string Text { get; private set; }
+    public string Text { get;  set; }
 
-    public IReadOnlyList<TranscriptionWord> Words { get; private set; }
+    public IReadOnlyList<TranscriptionWord> Words { get;  set; }
 
-    public decimal StartedOffsetInSeconds { get; private set; }
+    public decimal StartedOffsetInSeconds { get;  set; }
 
-    public decimal EndedOffsetInSeconds { get; private set; }
+    public decimal EndedOffsetInSeconds { get;  set; }
 
-    public int Speaker { get; private set; }
+    public int Speaker { get;  set; }
 
-    public int Channel { get; private set; }
+    public int Channel { get;  set; }
     
     public void ConcatUtterance(TranscriptionUtterance transcriptionUtterance)
     {

@@ -2,13 +2,13 @@ namespace LocalAI.Web.EvaluatedCalls;
 
 public sealed record TranscriptionWord
 {
-    public string Word { get; private set; }
+    public string Word { get;  set; }
 
-    public decimal StartedOffsetInSeconds { get; private set; }
+    public decimal StartedOffsetInSeconds { get;  set; }
 
-    public decimal EndedOffsetInSeconds { get; private set; }
+    public decimal EndedOffsetInSeconds { get;  set; }
 
-    public decimal Confidence { get; private set; }
+    public decimal Confidence { get;  set; }
 
     public static TranscriptionWord Create(string word,
                                            decimal startedOffsetInSeconds,
