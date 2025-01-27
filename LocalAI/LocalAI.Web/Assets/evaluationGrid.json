@@ -1,0 +1,111 @@
+{
+  "_id":  "673f50b75e6ba9f1a3010471",
+  "CreatedAt": "2024-11-21T15:24:39.941Z",
+  "Name": "Démo SFR",
+  "UpdatedAt":"2025-01-16T13:55:41.866Z",
+  "GridType": "SalesCompliant",
+  "Criteria": [
+    {
+      "Position": 0,
+      "Category": "ACCUEIL",
+      "Name": "Identité client",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller reconfirme l'identité du client avant de poursuivre avec la vente, en demandant des informations spécifiques (nom, date de naissance, ou autres informations d’identification).",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le conseiller ne reconfirme pas l'identité du client avant de continuer avec la vente.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "OFFRE",
+      "Name": "Présentation de l'offre",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller précise clairement les détails de l'offre, y compris le prix, et toute remise applicable.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le conseiller ne fournit pas de détails précis sur l'offre ou ne mentionne pas les tarifs et remises disponibles.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "OFFRE",
+      "Name": "Engagement",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller informe le client du délai d'engagement associé à l'offre.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le délai d'engagement n'est pas mentionné ou est décrit de manière ambiguë.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "FACTURATION",
+      "Name": "Date de facturation",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller précise clairement la date à laquelle le client sera facturé.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "La date de facturation n'est pas mentionnée ou est évoquée de manière imprécise.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "CGV",
+      "Name": "Indications CGV",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller informe le client de l'endroit où il peut consulter les conditions générales de vente.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Aucune mention des CGV ou du lieu de consultation n'est faite au cours de l'appel.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "OFFRE",
+      "Name": "Délai de rétractation",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller informe le client de son droit à un délai de rétractation de 14 jours.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le droit de rétractation n'est pas mentionné ou est incorrectement indiqué.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "TARIFS",
+      "Name": "Tarifs en vigueur",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller mentionne où le client peut consulter l'ensemble des tarifs en vigueur.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le conseiller ne mentionne pas où le client peut accéder aux tarifs actuels.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    },
+    {
+      "Position": 0,
+      "Category": "OFFRE",
+      "Name": "Clarté des informations",
+      "MaxScore": "5",
+      "CompliantReason": "Le conseiller demande au client s'il a des questions et s’assure que toutes les informations sont bien comprises.",
+      "PartialReason": "NA",
+      "NonCompliantReason": "Le conseiller ne vérifie pas la compréhension du client ou ne lui donne pas l'occasion de poser des questions.",
+      "NonApplicableReason": "NA",
+      "MustBeSatisfied": true,
+      "IsActive": false
+    }
+  ],
+  "IsActive": true,
+  "MinPartialScore": null,
+  "MaxPartialScore": null,
+  "SummaryPrompt": "Résume moi l'appel en 800 caractères",
+  "ExternalReferenceId": "671654d8887231647a753b65",
+  "IsDeleted": false
+}

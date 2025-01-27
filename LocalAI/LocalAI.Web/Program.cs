@@ -24,14 +24,15 @@ builder.Services.AddHttpClient<WeatherApiClient>(client =>
 var kernelBuilder = Kernel.CreateBuilder();
 #pragma warning disable SKEXP0070
 Regex regex = new Regex("Endpoint=(?<url>.*);");
-string connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__phi3");
+string connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__phi4");
 
 Match match = regex.Match(connectionString);
 
 Console.WriteLine(match.Groups["url"].Value);
-kernelBuilder.AddOllamaChatCompletion("phi3", new HttpClient()
+kernelBuilder.AddOllamaChatCompletion("phi4", new HttpClient()
 {
     BaseAddress = new Uri(match.Groups["url"].Value),
+    Timeout = TimeSpan.FromMinutes(10),
 });
 #pragma warning restore SKEXP0070
 Kernel kernel = kernelBuilder.Build();

@@ -1,7 +1,11 @@
 ﻿@page "/"
+@using ConvoAnalyzer.Domain.Entities.Grids
 @using LocalAI.Web.EvaluatedCalls
 @using Microsoft.SemanticKernel
-@using System.Text.Json
+@using Microsoft.SemanticKernel.ChatCompletion
+@using Newtonsoft.Json
+@using System.Diagnostics
+@using JsonSerializer = System.Text.Json.JsonSerializer
 @rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
@@ -10,40 +14,68 @@
 
 <p>Welcome to the Ollama demo!</p>
 
-<p><input type="text" @bind-value="_prompt" />&nbsp;<button @onclick="GetPrompt">Ask</button></p>
+<p><input type="text" @bind-value="_prompt"/>&nbsp;<button @onclick="GetPrompt">Ask</button></p>
 <p>@_response</p>
+<br/>
+<p>Temps écoulé : @_time seconds</p>
 
 @code {
     private string _prompt = "";
     private string _response = "";
+    private string _time = "";
 
     [Inject]
-    public required Kernel OllamaClient1 { get; set; }
+    public required Kernel Kernel { get; set; }
 
     private async Task GetPrompt()
     {
+        var chatCompletionService = Kernel.GetRequiredService<IChatCompletionService>();
+
         string evaluatedCallJson = await File.ReadAllTextAsync("./Assets/evaluatedCall.json");
-        
-        EvaluatedCall evaluatedCall = JsonSerializer.Deserialize<EvaluatedCall>(evaluatedCallJson);
-        
-        if (!string.IsNullOrWhiteSpace(_prompt))
+
+        string evaluatedCriteriaPrompt = await File.ReadAllTextAsync("./Assets/EvaluatedCriteriaPrompt.txt");
+
+        EvaluatedCall evaluatedCall = JsonConvert.DeserializeObject<EvaluatedCall>(evaluatedCallJson);
+
+        ChatHistory history = [];
+
+        string evaluationGridJson = await File.ReadAllTextAsync("./Assets/evaluationGrid.json");
+
+        EvaluationGrid evaluationGrid = JsonSerializer.Deserialize<EvaluationGrid>(evaluationGridJson);
+
+        history.AddUserMessage("Voici la transcription :\n" + evaluatedCall.Transcription.PrintUtterancesToString());
+
+        evaluatedCriteriaPrompt = evaluatedCriteriaPrompt.Replace("#{criteria_list}#", evaluationGrid.PrintCriteriaToString());
+
+        history.AddSystemMessage(evaluatedCriteriaPrompt);
+
+        history.AddSystemMessage("Qui es tu ?");
+
+        Stopwatch sw = new();
+
+        bool gotResponse = false;
+        _response = "Asking Ollama...";
+        StateHasChanged();
+
+        var stream = chatCompletionService.GetStreamingChatMessageContentsAsync(history);
+
+        // string evaluatedResponse = chatMessageContent.Content;
+        // var stream = Kernel.InvokePromptStreamingAsync(prompt);
+        sw.Start();
+        await foreach (var answerToken in stream)
         {
-            bool gotResponse = false;
-            _response = "Asking Ollama...";
-
-            var stream =  OllamaClient1.InvokePromptStreamingAsync(_prompt);
-            
-            await foreach (var answerToken in stream)
+            _time = $"{sw.Elapsed.TotalSeconds}";
+            if (!gotResponse)
             {
-                if (!gotResponse)
-                {
-                    _response = "";
-                    gotResponse = true;
-                }
-
-                _response += answerToken;
-                StateHasChanged();
+                _response = "";
+                gotResponse = true;
             }
+
+            _response += answerToken;
+            StateHasChanged();
         }
+
+        sw.Stop();
     }
+
 }

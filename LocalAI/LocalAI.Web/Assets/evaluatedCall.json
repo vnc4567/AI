@@ -1,277 +1,2176 @@
 {
-    "_id": "6745a4a157178bf7ca4c0569",
-    "CreatedAt": "2024-11-26T10:36:17.416Z",
-    "GridId": "673c88a23634029945cee1a9",
-    "GridType": "SalesCompliant",
-    "FileName": "convoanalyzer_agentId_teamName_CallcenterNameAA_638682141749018734.WAV",
-    "UrlFile": "649d3f005c0321e635c7a9c3/campaigns/670d3a919138111be0f733b3/6745a49e4b5d16c537686337/convoanalyzer_agentId_teamName_CallcenterNameAA_638682141749018734.WAV",
-    "Status": "EvaluationSucceeded",
-    "Transcription": {
-      "ExternalId": "980995d2-8d04-4e0e-977d-ba881d624893",
-      "Summary": null,
-      "FullTranscript": "Vous avez certifié le client, Péline, bonjour. Nous avons un consoeur qui devait me passer le service pour prendre rendez-vous pour un dépannage en avant-départ. Et on a été coupé. Donc, si vous pouviez me repasser ce service-là. Oui, on va reprendre tout ça ensemble. Vous êtes à l'ordre. C'est pour une planification de rendez-vous ? Oui, exactement. D'accord. Je vais juste regarder mon côté, j'ai pas de disponibilité. La disponibilité de mon côté, donc oui, je vais voir avec le service planning. Oui, parce que justement, c'est le service qui a été fait et j'ai été couplé. D'accord. Je vous transfère de suite. Je vais les contacter dans un premier temps. Merci. Merci à vous, monsieur. Bonne journée. Merci, vous aussi. Merci.",
-      "Utterances": [
-        {
-          "Text": "Vous avez certifié le client, Péline, bonjour.",
-          "Words": [
-            {
-              "Word": "Vous",
-              "StartedOffsetInSeconds": "1.66",
-              "EndedOffsetInSeconds": "1.78",
-              "Confidence": "0.01"
-            },
-            {
-              "Word": "avez",
-              "StartedOffsetInSeconds": "1.84",
-              "EndedOffsetInSeconds": "2.00",
-              "Confidence": "0.02"
-            },
-            {
-              "Word": "certifié",
-              "StartedOffsetInSeconds": "2.06",
-              "EndedOffsetInSeconds": "2.36",
-              "Confidence": "0.01"
-            },
-            {
-              "Word": "le",
-              "StartedOffsetInSeconds": "2.40",
-              "EndedOffsetInSeconds": "2.52",
-              "Confidence": "0.02"
-            },
-            {
-              "Word": "client,",
-              "StartedOffsetInSeconds": "2.60",
-              "EndedOffsetInSeconds": "2.84",
-              "Confidence": "0.04"
-            },
-            {
-              "Word": "Péline,",
-              "StartedOffsetInSeconds": "2.84",
-              "EndedOffsetInSeconds": "3.10",
-              "Confidence": "0.06"
-            },
-            {
-              "Word": "bonjour.",
-              "StartedOffsetInSeconds": "3.10",
-              "EndedOffsetInSeconds": "8.67",
-              "Confidence": "0.04"
-            }
-          ],
-          "StartedOffsetInSeconds": "1.66",
-          "EndedOffsetInSeconds": "8.67",
-          "Speaker": 0,
-          "Channel": 0
-        },
-        {
-          "Text": "Nous avons un consoeur qui devait me passer le service pour prendre rendez-vous pour un dépannage en avant-départ.",
-          "Words": [
-            {
-              "Word": "Nous",
-              "StartedOffsetInSeconds": "8.71",
-              "EndedOffsetInSeconds": "8.87",
-              "Confidence": "0.82"
-            },
-            {
-              "Word": "avons",
-              "StartedOffsetInSeconds": "8.93",
-              "EndedOffsetInSeconds": "9.17",
-              "Confidence": "0.87"
-            },
-            {
-              "Word": "un",
-              "StartedOffsetInSeconds": "9.17",
-              "EndedOffsetInSeconds": "9.23",
-              "Confidence": "0"
-            },
-            {
-              "Word": "consoeur",
-              "StartedOffsetInSeconds": "9.23",
-              "EndedOffsetInSeconds": "9.71",
-              "Confidence": "0.64"
-            },
-            {
-              "Word": "qui",
-              "StartedOffsetInSeconds": "11.17",
-              "EndedOffsetInSeconds": "11.29",
-              "Confidence": "0.45"
-            },
-            {
-              "Word": "devait",
-              "StartedOffsetInSeconds": "11.33",
-              "EndedOffsetInSeconds": "11.55",
-              "Confidence": "0.43"
-            },
-            {
-              "Word": "me",
-              "StartedOffsetInSeconds": "11.55",
-              "EndedOffsetInSeconds": "11.67",
-              "Confidence": "0.54"
-            },
-            {
-              "Word": "passer",
-              "StartedOffsetInSeconds": "11.77",
-              "EndedOffsetInSeconds": "12.17",
-              "Confidence": "0.8"
-            },
-            {
-              "Word": "le",
-              "StartedOffsetInSeconds": "12.17",
-              "EndedOffsetInSeconds": "12.29",
-              "Confidence": "0.46"
-            },
-            {
-              "Word": "service",
-              "StartedOffsetInSeconds": "12.39",
-              "EndedOffsetInSeconds": "13.25",
-              "Confidence": "0.85"
-            },
-            {
-              "Word": "pour",
-              "StartedOffsetInSeconds": "14.05",
-              "EndedOffsetInSeconds": "14.17",
-              "Confidence": "0.2"
-            },
-            {
-              "Word": "prendre",
-              "StartedOffsetInSeconds": "14.25",
-              "EndedOffsetInSeconds": "14.53",
-              "Confidence": "0.39"
-            },
-            {
-              "Word": "rendez-vous",
-              "StartedOffsetInSeconds": "14.63",
-              "EndedOffsetInSeconds": "15.21",
-              "Confidence": "0.78"
-            },
-            {
-              "Word": "pour",
-              "StartedOffsetInSeconds": "15.31",
-              "EndedOffsetInSeconds": "15.47",
-              "Confidence": "0.28"
-            },
-            {
-              "Word": "un",
-              "StartedOffsetInSeconds": "15.49",
-              "EndedOffsetInSeconds": "15.65",
-              "Confidence": "0.38"
-            },
-            {
-              "Word": "dépannage",
-              "StartedOffsetInSeconds": "16.17",
-              "EndedOffsetInSeconds": "16.75",
-              "Confidence": "0.64"
-            },
-            {
-              "Word": "en",
-              "StartedOffsetInSeconds": "16.79",
-              "EndedOffsetInSeconds": "16.91",
-              "Confidence": "0.1"
-            },
-            {
-              "Word": "avant-départ.",
-              "StartedOffsetInSeconds": "16.97",
-              "EndedOffsetInSeconds": "17.69",
-              "Confidence": "0.71"
-            }
-          ],
-          "StartedOffsetInSeconds": "8.71",
-          "EndedOffsetInSeconds": "17.69",
-          "Speaker": 1,
-          "Channel": 0
-        },
-        {
-          "Text": "Et on a été coupé.",
-          "Words": [
-            {
-              "Word": "Et",
-              "StartedOffsetInSeconds": "18.19",
-              "EndedOffsetInSeconds": "18.31",
-              "Confidence": "0.97"
-            },
-            {
-              "Word": "on",
-              "StartedOffsetInSeconds": "18.39",
-              "EndedOffsetInSeconds": "18.51",
-              "Confidence": "0.99"
-            },
-            {
-              "Word": "a",
-              "StartedOffsetInSeconds": "18.49",
-              "EndedOffsetInSeconds": "18.59",
-              "Confidence": "0.93"
-            },
-            {
-              "Word": "été",
-              "StartedOffsetInSeconds": "18.63",
-              "EndedOffsetInSeconds": "18.79",
-              "Confidence": "1"
-            },
-            {
-              "Word": "coupé.",
-              "StartedOffsetInSeconds": "18.87",
-              "EndedOffsetInSeconds": "19.15",
-              "Confidence": "0.91"
-            }
-          ],
-          "StartedOffsetInSeconds": "18.19",
-          "EndedOffsetInSeconds": "19.15",
-          "Speaker": 1,
-          "Channel": 0
-        }
-      ],
-      "AudioUrl": "https://api.gladia.io/file/77a0bb84-c571-441e-b667-13e312c5e116"
-    },
-    "CallDetails": {
-      "AgentId": "agentId",
-      "FileIntegratedAt": "2024-11-26T10:36:16.000Z",
-      "DurationInSeconds": "85.658413",
-      "TeamName": "teamName",
-      "CallCenterName": "CallcenterNameAA"
-    },
-    "Evaluation": {
-      "StartedAt": "2024-12-05T16:51:38.473Z",
-      "EndedAt": "2024-12-05T16:52:11.149Z",
-      "IsObjectiveReached": true,
-      "CompliantStatus": "NonCompliant",
-      "Score": "1.6",
-      "MaxScore": "2.2",
-      "MinPartialScore": null,
-      "MaxPartialScore": null,
-      "GradedCriteria": [
-        {
-          "Category": "Accueil",
-          "CriterionName": "Accueil chaleureux",
-          "Comment": "L'accueil de l'agent était correct mais manquait légèrement d'enthousiasme.",
-          "Appreciation": "partiellement conforme",
-          "CompliantStatus": "PartiallyCompliant",
-          "Score": "0.6",
-          "MaxScore": "1.2",
-          "KeyPoints": [
-            {
-              "StartedOffsetInSeconds": "1.66",
-              "Reason": "L'agent salue le client avec un ton correct mais sans grande chaleur."
-            }
-          ]
-        },
-        {
-          "Category": "Résolution",
-          "CriterionName": "L'agent comprend bien le besoin du client",
-          "Comment": "L'agent a correctement identifié le besoin du client de reprendre un rendez-vous coupé.",
-          "Appreciation": "conforme",
-          "CompliantStatus": "Compliant",
-          "Score": "1",
-          "MaxScore": "1",
-          "KeyPoints": [
-            {
-              "StartedOffsetInSeconds": "18.0",
-              "Reason": "L'agent confirme comprendre le besoin de reprendre un rendez-vous interrompu."
-            }
-          ]
-        }
-      ],
-      "Summary": ""
-    },
-    "FileDestination": "Omni",
-    "UpdatedAt": "2024-12-05T16:52:19.408Z",
-    "ExternalReferenceId": "649d3f005c0321e635c7a9c3"
+  "_id": "6745f60e5901f635a4b20fe3",
+  "CreatedAt": "2024-11-26T16:23:42.788Z",
+  "GridId": "673f50b75e6ba9f1a3010471",
+  "GridType": "SalesCompliant",
+  "FileName": "8B_61BBA8AA024B82890B7BE61704700105_638682350206800013.wav",
+  "UrlFile": "671654d8887231647a753b65/campaigns/67362d949936aeeef2608aff/6745f60ca447d486a4530cd1/8B_61BBA8AA024B82890B7BE61704700105_638682350206800013.wav",
+  "Status": "EvaluationSucceeded",
+  "Transcription": {
+    "ExternalId": "8728ebee-d068-4926-98ef-dedbfa6e91c6",
+    "Summary": null,
+    "FullTranscript": "",
+    "Utterances": [
+      {
+        "Text": "Je vous remercie pour votre aimable patience, M.",
+        "Words": [
+          {
+            "Word": "Je",
+            "StartedOffsetInSeconds": "1.01",
+            "EndedOffsetInSeconds": "1.13",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "1.15",
+            "EndedOffsetInSeconds": "1.27",
+            "Confidence": "0.89"
+          },
+          {
+            "Word": " remercie",
+            "StartedOffsetInSeconds": "1.29",
+            "EndedOffsetInSeconds": "1.73",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "1.79",
+            "EndedOffsetInSeconds": "1.91",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "1.97",
+            "EndedOffsetInSeconds": "2.17",
+            "Confidence": "1"
+          },
+          {
+            "Word": " aimable",
+            "StartedOffsetInSeconds": "2.21",
+            "EndedOffsetInSeconds": "2.53",
+            "Confidence": "0.86"
+          },
+          {
+            "Word": " patience,",
+            "StartedOffsetInSeconds": "2.59",
+            "EndedOffsetInSeconds": "3.15",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " M.",
+            "StartedOffsetInSeconds": "3.17",
+            "EndedOffsetInSeconds": "3.29",
+            "Confidence": "0.03"
+          }
+        ],
+        "StartedOffsetInSeconds": "1.01",
+        "EndedOffsetInSeconds": "3.29",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Jansan.",
+        "Words": [
+          {
+            "Word": " Jansan.",
+            "StartedOffsetInSeconds": "3.47",
+            "EndedOffsetInSeconds": "3.85",
+            "Confidence": "0.77"
+          }
+        ],
+        "StartedOffsetInSeconds": "3.47",
+        "EndedOffsetInSeconds": "3.85",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc là, je viens de lancer le récapitulatif.",
+        "Words": [
+          {
+            "Word": " Donc",
+            "StartedOffsetInSeconds": "3.91",
+            "EndedOffsetInSeconds": "4.07",
+            "Confidence": "1"
+          },
+          {
+            "Word": " là,",
+            "StartedOffsetInSeconds": "4.09",
+            "EndedOffsetInSeconds": "4.21",
+            "Confidence": "1"
+          },
+          {
+            "Word": " je",
+            "StartedOffsetInSeconds": "4.25",
+            "EndedOffsetInSeconds": "4.37",
+            "Confidence": "1"
+          },
+          {
+            "Word": " viens",
+            "StartedOffsetInSeconds": "4.43",
+            "EndedOffsetInSeconds": "4.65",
+            "Confidence": "0.84"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "4.65",
+            "EndedOffsetInSeconds": "4.77",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " lancer",
+            "StartedOffsetInSeconds": "4.79",
+            "EndedOffsetInSeconds": "5.09",
+            "Confidence": "0.8"
+          },
+          {
+            "Word": " le",
+            "StartedOffsetInSeconds": "5.09",
+            "EndedOffsetInSeconds": "5.21",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " récapitulatif.",
+            "StartedOffsetInSeconds": "5.25",
+            "EndedOffsetInSeconds": "6.09",
+            "Confidence": "0.98"
+          }
+        ],
+        "StartedOffsetInSeconds": "3.91",
+        "EndedOffsetInSeconds": "6.09",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc, pour confirmer votre accord, je vais faire la synthèse de votre offre.",
+        "Words": [
+          {
+            "Word": " Donc,",
+            "StartedOffsetInSeconds": "6.86",
+            "EndedOffsetInSeconds": "7.02",
+            "Confidence": "1"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "7.12",
+            "EndedOffsetInSeconds": "7.24",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " confirmer",
+            "StartedOffsetInSeconds": "7.30",
+            "EndedOffsetInSeconds": "7.98",
+            "Confidence": "1"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "8.18",
+            "EndedOffsetInSeconds": "8.42",
+            "Confidence": "1"
+          },
+          {
+            "Word": " accord,",
+            "StartedOffsetInSeconds": "8.46",
+            "EndedOffsetInSeconds": "8.90",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " je",
+            "StartedOffsetInSeconds": "9.06",
+            "EndedOffsetInSeconds": "9.18",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vais",
+            "StartedOffsetInSeconds": "9.20",
+            "EndedOffsetInSeconds": "9.32",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " faire",
+            "StartedOffsetInSeconds": "9.36",
+            "EndedOffsetInSeconds": "9.56",
+            "Confidence": "1"
+          },
+          {
+            "Word": " la",
+            "StartedOffsetInSeconds": "9.56",
+            "EndedOffsetInSeconds": "9.68",
+            "Confidence": "1"
+          },
+          {
+            "Word": " synthèse",
+            "StartedOffsetInSeconds": "9.76",
+            "EndedOffsetInSeconds": "10.30",
+            "Confidence": "0.73"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "10.30",
+            "EndedOffsetInSeconds": "10.42",
+            "Confidence": "1"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "10.46",
+            "EndedOffsetInSeconds": "10.68",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " offre.",
+            "StartedOffsetInSeconds": "10.72",
+            "EndedOffsetInSeconds": "10.96",
+            "Confidence": "0.86"
+          }
+        ],
+        "StartedOffsetInSeconds": "6.86",
+        "EndedOffsetInSeconds": "10.96",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Quand je vous poserai des questions, il faudra, si vous êtes d'accord, répondre par oui.",
+        "Words": [
+          {
+            "Word": " Quand",
+            "StartedOffsetInSeconds": "11.38",
+            "EndedOffsetInSeconds": "11.52",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " je",
+            "StartedOffsetInSeconds": "11.54",
+            "EndedOffsetInSeconds": "11.66",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "11.68",
+            "EndedOffsetInSeconds": "11.80",
+            "Confidence": "0.92"
+          },
+          {
+            "Word": " poserai",
+            "StartedOffsetInSeconds": "11.84",
+            "EndedOffsetInSeconds": "12.12",
+            "Confidence": "0.89"
+          },
+          {
+            "Word": " des",
+            "StartedOffsetInSeconds": "12.14",
+            "EndedOffsetInSeconds": "12.26",
+            "Confidence": "1"
+          },
+          {
+            "Word": " questions,",
+            "StartedOffsetInSeconds": "12.30",
+            "EndedOffsetInSeconds": "12.74",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " il",
+            "StartedOffsetInSeconds": "13.04",
+            "EndedOffsetInSeconds": "13.16",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " faudra,",
+            "StartedOffsetInSeconds": "13.20",
+            "EndedOffsetInSeconds": "13.46",
+            "Confidence": "1"
+          },
+          {
+            "Word": " si",
+            "StartedOffsetInSeconds": "13.58",
+            "EndedOffsetInSeconds": "13.70",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "13.76",
+            "EndedOffsetInSeconds": "13.90",
+            "Confidence": "0.93"
+          },
+          {
+            "Word": " êtes",
+            "StartedOffsetInSeconds": "13.96",
+            "EndedOffsetInSeconds": "14.10",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " d'accord,",
+            "StartedOffsetInSeconds": "14.12",
+            "EndedOffsetInSeconds": "14.46",
+            "Confidence": "0.93"
+          },
+          {
+            "Word": " répondre",
+            "StartedOffsetInSeconds": "14.52",
+            "EndedOffsetInSeconds": "14.92",
+            "Confidence": "1"
+          },
+          {
+            "Word": " par",
+            "StartedOffsetInSeconds": "15.00",
+            "EndedOffsetInSeconds": "15.14",
+            "Confidence": "1"
+          },
+          {
+            "Word": " oui.",
+            "StartedOffsetInSeconds": "15.14",
+            "EndedOffsetInSeconds": "15.26",
+            "Confidence": "0.83"
+          }
+        ],
+        "StartedOffsetInSeconds": "11.38",
+        "EndedOffsetInSeconds": "15.26",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "D'accord.",
+        "Words": [
+          {
+            "Word": " D'accord.",
+            "StartedOffsetInSeconds": "15.26",
+            "EndedOffsetInSeconds": "16.44",
+            "Confidence": "0"
+          }
+        ],
+        "StartedOffsetInSeconds": "15.26",
+        "EndedOffsetInSeconds": "16.44",
+        "Speaker": 1,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc, je suis bien avec M.",
+        "Words": [
+          {
+            "Word": " Donc,",
+            "StartedOffsetInSeconds": "16.58",
+            "EndedOffsetInSeconds": "16.70",
+            "Confidence": "0.06"
+          },
+          {
+            "Word": " je",
+            "StartedOffsetInSeconds": "16.74",
+            "EndedOffsetInSeconds": "16.86",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " suis",
+            "StartedOffsetInSeconds": "16.92",
+            "EndedOffsetInSeconds": "17.08",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " bien",
+            "StartedOffsetInSeconds": "17.18",
+            "EndedOffsetInSeconds": "17.44",
+            "Confidence": "0.77"
+          },
+          {
+            "Word": " avec",
+            "StartedOffsetInSeconds": "17.64",
+            "EndedOffsetInSeconds": "17.92",
+            "Confidence": "0.88"
+          },
+          {
+            "Word": " M.",
+            "StartedOffsetInSeconds": "17.98",
+            "EndedOffsetInSeconds": "18.10",
+            "Confidence": "0.1"
+          }
+        ],
+        "StartedOffsetInSeconds": "16.58",
+        "EndedOffsetInSeconds": "18.10",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Ibrahima Jansan.",
+        "Words": [
+          {
+            "Word": " Ibrahima",
+            "StartedOffsetInSeconds": "18.58",
+            "EndedOffsetInSeconds": "19.16",
+            "Confidence": "0.71"
+          },
+          {
+            "Word": " Jansan.",
+            "StartedOffsetInSeconds": "19.50",
+            "EndedOffsetInSeconds": "19.94",
+            "Confidence": "0.72"
+          }
+        ],
+        "StartedOffsetInSeconds": "18.58",
+        "EndedOffsetInSeconds": "19.94",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Oui. Votre adresse est bien le 8 chemin du Nouveau Saint-Martin à Pontoise, 95 300.",
+        "Words": [
+          {
+            "Word": " Oui.",
+            "StartedOffsetInSeconds": "21.10",
+            "EndedOffsetInSeconds": "21.22",
+            "Confidence": "0.24"
+          },
+          {
+            "Word": " Votre",
+            "StartedOffsetInSeconds": "21.96",
+            "EndedOffsetInSeconds": "22.18",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " adresse",
+            "StartedOffsetInSeconds": "22.24",
+            "EndedOffsetInSeconds": "22.58",
+            "Confidence": "0.84"
+          },
+          {
+            "Word": " est",
+            "StartedOffsetInSeconds": "22.60",
+            "EndedOffsetInSeconds": "22.72",
+            "Confidence": "0.9"
+          },
+          {
+            "Word": " bien",
+            "StartedOffsetInSeconds": "22.72",
+            "EndedOffsetInSeconds": "22.88",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " le",
+            "StartedOffsetInSeconds": "22.92",
+            "EndedOffsetInSeconds": "23.04",
+            "Confidence": "1"
+          },
+          {
+            "Word": " 8",
+            "StartedOffsetInSeconds": "23.06",
+            "EndedOffsetInSeconds": "23.24",
+            "Confidence": "0.16"
+          },
+          {
+            "Word": " chemin",
+            "StartedOffsetInSeconds": "23.42",
+            "EndedOffsetInSeconds": "23.78",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " du",
+            "StartedOffsetInSeconds": "23.82",
+            "EndedOffsetInSeconds": "23.94",
+            "Confidence": "1"
+          },
+          {
+            "Word": " Nouveau",
+            "StartedOffsetInSeconds": "24.03",
+            "EndedOffsetInSeconds": "24.33",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " Saint-Martin",
+            "StartedOffsetInSeconds": "24.53",
+            "EndedOffsetInSeconds": "25.11",
+            "Confidence": "0.79"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "25.45",
+            "EndedOffsetInSeconds": "25.57",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " Pontoise,",
+            "StartedOffsetInSeconds": "25.63",
+            "EndedOffsetInSeconds": "26.23",
+            "Confidence": "0.89"
+          },
+          {
+            "Word": " 95",
+            "StartedOffsetInSeconds": "26.61",
+            "EndedOffsetInSeconds": "27.43",
+            "Confidence": "0.01"
+          },
+          {
+            "Word": " 300.",
+            "StartedOffsetInSeconds": "27.49",
+            "EndedOffsetInSeconds": "27.99",
+            "Confidence": "0.05"
+          }
+        ],
+        "StartedOffsetInSeconds": "21.10",
+        "EndedOffsetInSeconds": "27.99",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Oui.",
+        "Words": [
+          {
+            "Word": " Oui.",
+            "StartedOffsetInSeconds": "28.97",
+            "EndedOffsetInSeconds": "29.09",
+            "Confidence": "0.3"
+          }
+        ],
+        "StartedOffsetInSeconds": "28.97",
+        "EndedOffsetInSeconds": "29.09",
+        "Speaker": 1,
+        "Channel": 0
+      },
+      {
+        "Text": "Parfait.",
+        "Words": [
+          {
+            "Word": " Parfait.",
+            "StartedOffsetInSeconds": "29.93",
+            "EndedOffsetInSeconds": "30.27",
+            "Confidence": "0.88"
+          }
+        ],
+        "StartedOffsetInSeconds": "29.93",
+        "EndedOffsetInSeconds": "30.27",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc, comme convenu, M.",
+        "Words": [
+          {
+            "Word": " Donc,",
+            "StartedOffsetInSeconds": "30.31",
+            "EndedOffsetInSeconds": "30.45",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " comme",
+            "StartedOffsetInSeconds": "30.49",
+            "EndedOffsetInSeconds": "30.65",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " convenu,",
+            "StartedOffsetInSeconds": "30.69",
+            "EndedOffsetInSeconds": "31.09",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " M.",
+            "StartedOffsetInSeconds": "31.13",
+            "EndedOffsetInSeconds": "31.25",
+            "Confidence": "0.8"
+          }
+        ],
+        "StartedOffsetInSeconds": "30.31",
+        "EndedOffsetInSeconds": "31.25",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Hansen, vous me confirmez bien l'annulation de votre résiliation à votre offre B-Box Serre Spéciale Fibre qui vous revient aujourd'hui à 27,99 C'est le prix de l'ancienne facture.",
+        "Words": [
+          {
+            "Word": " Hansen,",
+            "StartedOffsetInSeconds": "31.47",
+            "EndedOffsetInSeconds": "31.85",
+            "Confidence": "0.66"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "31.89",
+            "EndedOffsetInSeconds": "32.01",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " me",
+            "StartedOffsetInSeconds": "32.01",
+            "EndedOffsetInSeconds": "32.11",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " confirmez",
+            "StartedOffsetInSeconds": "32.11",
+            "EndedOffsetInSeconds": "32.65",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " bien",
+            "StartedOffsetInSeconds": "32.67",
+            "EndedOffsetInSeconds": "32.83",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " l'annulation",
+            "StartedOffsetInSeconds": "32.89",
+            "EndedOffsetInSeconds": "33.48",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "33.52",
+            "EndedOffsetInSeconds": "33.64",
+            "Confidence": "1"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "33.68",
+            "EndedOffsetInSeconds": "33.92",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " résiliation",
+            "StartedOffsetInSeconds": "34.02",
+            "EndedOffsetInSeconds": "34.70",
+            "Confidence": "0.87"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "34.96",
+            "EndedOffsetInSeconds": "35.08",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "35.12",
+            "EndedOffsetInSeconds": "35.38",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " offre",
+            "StartedOffsetInSeconds": "35.52",
+            "EndedOffsetInSeconds": "35.74",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " B-Box",
+            "StartedOffsetInSeconds": "35.82",
+            "EndedOffsetInSeconds": "36.14",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " Serre",
+            "StartedOffsetInSeconds": "36.54",
+            "EndedOffsetInSeconds": "36.78",
+            "Confidence": "0.66"
+          },
+          {
+            "Word": " Spéciale",
+            "StartedOffsetInSeconds": "36.86",
+            "EndedOffsetInSeconds": "37.34",
+            "Confidence": "0.86"
+          },
+          {
+            "Word": " Fibre",
+            "StartedOffsetInSeconds": "37.42",
+            "EndedOffsetInSeconds": "37.70",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " qui",
+            "StartedOffsetInSeconds": "37.76",
+            "EndedOffsetInSeconds": "37.88",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "37.88",
+            "EndedOffsetInSeconds": "38.00",
+            "Confidence": "0.92"
+          },
+          {
+            "Word": " revient",
+            "StartedOffsetInSeconds": "38.04",
+            "EndedOffsetInSeconds": "38.38",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " aujourd'hui",
+            "StartedOffsetInSeconds": "38.50",
+            "EndedOffsetInSeconds": "38.94",
+            "Confidence": "0.92"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "38.98",
+            "EndedOffsetInSeconds": "39.06",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " 27,99",
+            "StartedOffsetInSeconds": "39.06",
+            "EndedOffsetInSeconds": "40.72",
+            "Confidence": "0.01"
+          },
+          {
+            "Word": " C'est",
+            "StartedOffsetInSeconds": "41.26",
+            "EndedOffsetInSeconds": "41.40",
+            "Confidence": "0.78"
+          },
+          {
+            "Word": " le",
+            "StartedOffsetInSeconds": "41.40",
+            "EndedOffsetInSeconds": "41.52",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " prix",
+            "StartedOffsetInSeconds": "41.54",
+            "EndedOffsetInSeconds": "41.76",
+            "Confidence": "0.84"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "41.80",
+            "EndedOffsetInSeconds": "41.92",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " l'ancienne",
+            "StartedOffsetInSeconds": "41.96",
+            "EndedOffsetInSeconds": "42.42",
+            "Confidence": "0.89"
+          },
+          {
+            "Word": " facture.",
+            "StartedOffsetInSeconds": "42.46",
+            "EndedOffsetInSeconds": "42.88",
+            "Confidence": "0.98"
+          }
+        ],
+        "StartedOffsetInSeconds": "31.47",
+        "EndedOffsetInSeconds": "42.88",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Parfait.",
+        "Words": [
+          {
+            "Word": " Parfait.",
+            "StartedOffsetInSeconds": "43.86",
+            "EndedOffsetInSeconds": "44.27",
+            "Confidence": "0.43"
+          }
+        ],
+        "StartedOffsetInSeconds": "43.86",
+        "EndedOffsetInSeconds": "44.27",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc, vous me confirmez bien vouloir vous réengager sur la nouvelle offre B-Box Must 866.",
+        "Words": [
+          {
+            "Word": " Donc,",
+            "StartedOffsetInSeconds": "44.55",
+            "EndedOffsetInSeconds": "44.73",
+            "Confidence": "0.78"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "45.05",
+            "EndedOffsetInSeconds": "45.17",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " me",
+            "StartedOffsetInSeconds": "45.17",
+            "EndedOffsetInSeconds": "45.27",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " confirmez",
+            "StartedOffsetInSeconds": "45.27",
+            "EndedOffsetInSeconds": "45.79",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " bien",
+            "StartedOffsetInSeconds": "45.81",
+            "EndedOffsetInSeconds": "45.97",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " vouloir",
+            "StartedOffsetInSeconds": "46.07",
+            "EndedOffsetInSeconds": "46.39",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "46.43",
+            "EndedOffsetInSeconds": "46.55",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " réengager",
+            "StartedOffsetInSeconds": "46.59",
+            "EndedOffsetInSeconds": "47.17",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " sur",
+            "StartedOffsetInSeconds": "47.25",
+            "EndedOffsetInSeconds": "47.41",
+            "Confidence": "1"
+          },
+          {
+            "Word": " la",
+            "StartedOffsetInSeconds": "47.41",
+            "EndedOffsetInSeconds": "47.53",
+            "Confidence": "1"
+          },
+          {
+            "Word": " nouvelle",
+            "StartedOffsetInSeconds": "47.57",
+            "EndedOffsetInSeconds": "47.89",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " offre",
+            "StartedOffsetInSeconds": "47.97",
+            "EndedOffsetInSeconds": "48.23",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " B-Box",
+            "StartedOffsetInSeconds": "48.31",
+            "EndedOffsetInSeconds": "48.61",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " Must",
+            "StartedOffsetInSeconds": "48.85",
+            "EndedOffsetInSeconds": "49.09",
+            "Confidence": "0.73"
+          },
+          {
+            "Word": " 866.",
+            "StartedOffsetInSeconds": "49.21",
+            "EndedOffsetInSeconds": "50.27",
+            "Confidence": "0.19"
+          }
+        ],
+        "StartedOffsetInSeconds": "44.55",
+        "EndedOffsetInSeconds": "50.27",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Normalement, vous devez payer 21,99 Mais pour faire face à l'offre de la poste, Voilà, donc vous n'allez payer que 18,99€ TTC, donc soit 19€.",
+        "Words": [
+          {
+            "Word": " Normalement,",
+            "StartedOffsetInSeconds": "50.27",
+            "EndedOffsetInSeconds": "50.77",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "50.79",
+            "EndedOffsetInSeconds": "50.91",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " devez",
+            "StartedOffsetInSeconds": "50.93",
+            "EndedOffsetInSeconds": "51.19",
+            "Confidence": "1"
+          },
+          {
+            "Word": " payer",
+            "StartedOffsetInSeconds": "51.23",
+            "EndedOffsetInSeconds": "51.49",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " 21,99",
+            "StartedOffsetInSeconds": "51.57",
+            "EndedOffsetInSeconds": "53.25",
+            "Confidence": "0.01"
+          },
+          {
+            "Word": " Mais",
+            "StartedOffsetInSeconds": "54.11",
+            "EndedOffsetInSeconds": "54.25",
+            "Confidence": "0.93"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "54.29",
+            "EndedOffsetInSeconds": "54.43",
+            "Confidence": "1"
+          },
+          {
+            "Word": " faire",
+            "StartedOffsetInSeconds": "54.51",
+            "EndedOffsetInSeconds": "54.67",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " face",
+            "StartedOffsetInSeconds": "54.75",
+            "EndedOffsetInSeconds": "55.05",
+            "Confidence": "1"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "55.07",
+            "EndedOffsetInSeconds": "55.17",
+            "Confidence": "1"
+          },
+          {
+            "Word": " l'offre",
+            "StartedOffsetInSeconds": "55.19",
+            "EndedOffsetInSeconds": "55.56",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "55.72",
+            "EndedOffsetInSeconds": "55.84",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " la",
+            "StartedOffsetInSeconds": "55.84",
+            "EndedOffsetInSeconds": "55.96",
+            "Confidence": "1"
+          },
+          {
+            "Word": " poste,",
+            "StartedOffsetInSeconds": "56.02",
+            "EndedOffsetInSeconds": "56.28",
+            "Confidence": "0.68"
+          },
+          {
+            "Word": " Voilà,",
+            "StartedOffsetInSeconds": "57.14",
+            "EndedOffsetInSeconds": "57.36",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " donc",
+            "StartedOffsetInSeconds": "57.50",
+            "EndedOffsetInSeconds": "57.66",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "57.78",
+            "EndedOffsetInSeconds": "57.90",
+            "Confidence": "0.89"
+          },
+          {
+            "Word": " n'allez",
+            "StartedOffsetInSeconds": "57.90",
+            "EndedOffsetInSeconds": "58.14",
+            "Confidence": "0.71"
+          },
+          {
+            "Word": " payer",
+            "StartedOffsetInSeconds": "58.18",
+            "EndedOffsetInSeconds": "58.48",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " que",
+            "StartedOffsetInSeconds": "58.54",
+            "EndedOffsetInSeconds": "58.66",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " 18,99€",
+            "StartedOffsetInSeconds": "58.96",
+            "EndedOffsetInSeconds": "60.69",
+            "Confidence": "0.11"
+          },
+          {
+            "Word": " TTC,",
+            "StartedOffsetInSeconds": "60.69",
+            "EndedOffsetInSeconds": "61.01",
+            "Confidence": "0.87"
+          },
+          {
+            "Word": " donc",
+            "StartedOffsetInSeconds": "61.45",
+            "EndedOffsetInSeconds": "61.57",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " soit",
+            "StartedOffsetInSeconds": "61.65",
+            "EndedOffsetInSeconds": "61.83",
+            "Confidence": "0.8"
+          },
+          {
+            "Word": " 19€.",
+            "StartedOffsetInSeconds": "61.85",
+            "EndedOffsetInSeconds": "62.41",
+            "Confidence": "0.41"
+          }
+        ],
+        "StartedOffsetInSeconds": "50.27",
+        "EndedOffsetInSeconds": "62.41",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "L'offre est réengageante pendant 12 mois.",
+        "Words": [
+          {
+            "Word": " L'offre",
+            "StartedOffsetInSeconds": "63.33",
+            "EndedOffsetInSeconds": "63.61",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " est",
+            "StartedOffsetInSeconds": "63.61",
+            "EndedOffsetInSeconds": "63.73",
+            "Confidence": "0.73"
+          },
+          {
+            "Word": " réengageante",
+            "StartedOffsetInSeconds": "63.85",
+            "EndedOffsetInSeconds": "64.61",
+            "Confidence": "0.8"
+          },
+          {
+            "Word": " pendant",
+            "StartedOffsetInSeconds": "64.65",
+            "EndedOffsetInSeconds": "65.01",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " 12",
+            "StartedOffsetInSeconds": "65.05",
+            "EndedOffsetInSeconds": "65.29",
+            "Confidence": "0.79"
+          },
+          {
+            "Word": " mois.",
+            "StartedOffsetInSeconds": "65.35",
+            "EndedOffsetInSeconds": "65.59",
+            "Confidence": "0.91"
+          }
+        ],
+        "StartedOffsetInSeconds": "63.33",
+        "EndedOffsetInSeconds": "65.59",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc au lieu d'avoir 20€ de remise, j'ai négocié pour vous une remise de 3€ supplémentaire.",
+        "Words": [
+          {
+            "Word": " Donc",
+            "StartedOffsetInSeconds": "66.59",
+            "EndedOffsetInSeconds": "66.75",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " au",
+            "StartedOffsetInSeconds": "66.77",
+            "EndedOffsetInSeconds": "66.89",
+            "Confidence": "0.86"
+          },
+          {
+            "Word": " lieu",
+            "StartedOffsetInSeconds": "66.91",
+            "EndedOffsetInSeconds": "67.03",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " d'avoir",
+            "StartedOffsetInSeconds": "67.07",
+            "EndedOffsetInSeconds": "67.47",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " 20€",
+            "StartedOffsetInSeconds": "67.59",
+            "EndedOffsetInSeconds": "68.03",
+            "Confidence": "0.37"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "68.07",
+            "EndedOffsetInSeconds": "68.19",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " remise,",
+            "StartedOffsetInSeconds": "68.25",
+            "EndedOffsetInSeconds": "68.65",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " j'ai",
+            "StartedOffsetInSeconds": "68.89",
+            "EndedOffsetInSeconds": "69.01",
+            "Confidence": "0.87"
+          },
+          {
+            "Word": " négocié",
+            "StartedOffsetInSeconds": "69.05",
+            "EndedOffsetInSeconds": "69.45",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "69.53",
+            "EndedOffsetInSeconds": "69.67",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "69.75",
+            "EndedOffsetInSeconds": "69.89",
+            "Confidence": "0.85"
+          },
+          {
+            "Word": " une",
+            "StartedOffsetInSeconds": "69.91",
+            "EndedOffsetInSeconds": "70.03",
+            "Confidence": "1"
+          },
+          {
+            "Word": " remise",
+            "StartedOffsetInSeconds": "70.07",
+            "EndedOffsetInSeconds": "70.43",
+            "Confidence": "1"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "70.45",
+            "EndedOffsetInSeconds": "70.57",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " 3€",
+            "StartedOffsetInSeconds": "70.63",
+            "EndedOffsetInSeconds": "71.09",
+            "Confidence": "0.76"
+          },
+          {
+            "Word": " supplémentaire.",
+            "StartedOffsetInSeconds": "71.21",
+            "EndedOffsetInSeconds": "71.87",
+            "Confidence": "0.98"
+          }
+        ],
+        "StartedOffsetInSeconds": "66.59",
+        "EndedOffsetInSeconds": "71.87",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Comme ça, vous avez 23€ de remise pendant une année, au lieu de 41,99€ qui est le prix après un an.",
+        "Words": [
+          {
+            "Word": " Comme",
+            "StartedOffsetInSeconds": "72.15",
+            "EndedOffsetInSeconds": "72.31",
+            "Confidence": "1"
+          },
+          {
+            "Word": " ça,",
+            "StartedOffsetInSeconds": "72.33",
+            "EndedOffsetInSeconds": "72.45",
+            "Confidence": "1"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "72.51",
+            "EndedOffsetInSeconds": "72.67",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " avez",
+            "StartedOffsetInSeconds": "72.73",
+            "EndedOffsetInSeconds": "73.01",
+            "Confidence": "1"
+          },
+          {
+            "Word": " 23€",
+            "StartedOffsetInSeconds": "73.15",
+            "EndedOffsetInSeconds": "73.87",
+            "Confidence": "0.44"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "73.93",
+            "EndedOffsetInSeconds": "74.05",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " remise",
+            "StartedOffsetInSeconds": "74.11",
+            "EndedOffsetInSeconds": "74.55",
+            "Confidence": "0.84"
+          },
+          {
+            "Word": " pendant",
+            "StartedOffsetInSeconds": "75.05",
+            "EndedOffsetInSeconds": "75.35",
+            "Confidence": "0.95"
+          },
+          {
+            "Word": " une",
+            "StartedOffsetInSeconds": "75.43",
+            "EndedOffsetInSeconds": "75.55",
+            "Confidence": "1"
+          },
+          {
+            "Word": " année,",
+            "StartedOffsetInSeconds": "75.57",
+            "EndedOffsetInSeconds": "75.79",
+            "Confidence": "1"
+          },
+          {
+            "Word": " au",
+            "StartedOffsetInSeconds": "76.09",
+            "EndedOffsetInSeconds": "76.21",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " lieu",
+            "StartedOffsetInSeconds": "76.23",
+            "EndedOffsetInSeconds": "76.37",
+            "Confidence": "0.92"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "76.41",
+            "EndedOffsetInSeconds": "76.53",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " 41,99€",
+            "StartedOffsetInSeconds": "76.59",
+            "EndedOffsetInSeconds": "78.13",
+            "Confidence": "0.04"
+          },
+          {
+            "Word": " qui",
+            "StartedOffsetInSeconds": "78.13",
+            "EndedOffsetInSeconds": "78.25",
+            "Confidence": "0.9"
+          },
+          {
+            "Word": " est",
+            "StartedOffsetInSeconds": "78.23",
+            "EndedOffsetInSeconds": "78.33",
+            "Confidence": "0.66"
+          },
+          {
+            "Word": " le",
+            "StartedOffsetInSeconds": "78.35",
+            "EndedOffsetInSeconds": "78.45",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " prix",
+            "StartedOffsetInSeconds": "78.47",
+            "EndedOffsetInSeconds": "78.65",
+            "Confidence": "0.79"
+          },
+          {
+            "Word": " après",
+            "StartedOffsetInSeconds": "78.71",
+            "EndedOffsetInSeconds": "78.97",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " un",
+            "StartedOffsetInSeconds": "79.03",
+            "EndedOffsetInSeconds": "79.15",
+            "Confidence": "0.73"
+          },
+          {
+            "Word": " an.",
+            "StartedOffsetInSeconds": "79.17",
+            "EndedOffsetInSeconds": "79.29",
+            "Confidence": "0.59"
+          }
+        ],
+        "StartedOffsetInSeconds": "72.15",
+        "EndedOffsetInSeconds": "79.29",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Sans engagement.",
+        "Words": [
+          {
+            "Word": " Sans",
+            "StartedOffsetInSeconds": "79.73",
+            "EndedOffsetInSeconds": "79.93",
+            "Confidence": "0.45"
+          },
+          {
+            "Word": " engagement.",
+            "StartedOffsetInSeconds": "79.97",
+            "EndedOffsetInSeconds": "80.37",
+            "Confidence": "0.92"
+          }
+        ],
+        "StartedOffsetInSeconds": "79.73",
+        "EndedOffsetInSeconds": "80.37",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "La deuxième année, sans engagement.",
+        "Words": [
+          {
+            "Word": " La",
+            "StartedOffsetInSeconds": "80.55",
+            "EndedOffsetInSeconds": "80.67",
+            "Confidence": "0.5"
+          },
+          {
+            "Word": " deuxième",
+            "StartedOffsetInSeconds": "80.73",
+            "EndedOffsetInSeconds": "81.05",
+            "Confidence": "0.74"
+          },
+          {
+            "Word": " année,",
+            "StartedOffsetInSeconds": "81.09",
+            "EndedOffsetInSeconds": "81.29",
+            "Confidence": "0.79"
+          },
+          {
+            "Word": " sans",
+            "StartedOffsetInSeconds": "81.35",
+            "EndedOffsetInSeconds": "81.53",
+            "Confidence": "0.88"
+          },
+          {
+            "Word": " engagement.",
+            "StartedOffsetInSeconds": "81.57",
+            "EndedOffsetInSeconds": "81.97",
+            "Confidence": "0.95"
+          }
+        ],
+        "StartedOffsetInSeconds": "80.55",
+        "EndedOffsetInSeconds": "81.97",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Donc votre changement d'offre...",
+        "Words": [
+          {
+            "Word": " Donc",
+            "StartedOffsetInSeconds": "82.82",
+            "EndedOffsetInSeconds": "82.96",
+            "Confidence": "0.55"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "83.04",
+            "EndedOffsetInSeconds": "83.32",
+            "Confidence": "0.73"
+          },
+          {
+            "Word": " changement",
+            "StartedOffsetInSeconds": "83.48",
+            "EndedOffsetInSeconds": "83.96",
+            "Confidence": "0.92"
+          },
+          {
+            "Word": " d'offre...",
+            "StartedOffsetInSeconds": "84.02",
+            "EndedOffsetInSeconds": "84.38",
+            "Confidence": "0.8"
+          }
+        ],
+        "StartedOffsetInSeconds": "82.82",
+        "EndedOffsetInSeconds": "84.38",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Votre remise et votre réengagement vous seront notifiés par SMS et par mail à la suite de cet appel.",
+        "Words": [
+          {
+            "Word": " Votre",
+            "StartedOffsetInSeconds": "84.64",
+            "EndedOffsetInSeconds": "84.92",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " remise",
+            "StartedOffsetInSeconds": "85.00",
+            "EndedOffsetInSeconds": "85.42",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " et",
+            "StartedOffsetInSeconds": "85.42",
+            "EndedOffsetInSeconds": "85.52",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "85.52",
+            "EndedOffsetInSeconds": "85.76",
+            "Confidence": "1"
+          },
+          {
+            "Word": " réengagement",
+            "StartedOffsetInSeconds": "85.84",
+            "EndedOffsetInSeconds": "86.52",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "86.58",
+            "EndedOffsetInSeconds": "86.72",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " seront",
+            "StartedOffsetInSeconds": "86.78",
+            "EndedOffsetInSeconds": "87.02",
+            "Confidence": "1"
+          },
+          {
+            "Word": " notifiés",
+            "StartedOffsetInSeconds": "87.08",
+            "EndedOffsetInSeconds": "87.54",
+            "Confidence": "0.9"
+          },
+          {
+            "Word": " par",
+            "StartedOffsetInSeconds": "87.58",
+            "EndedOffsetInSeconds": "87.74",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " SMS",
+            "StartedOffsetInSeconds": "87.88",
+            "EndedOffsetInSeconds": "88.26",
+            "Confidence": "0.68"
+          },
+          {
+            "Word": " et",
+            "StartedOffsetInSeconds": "88.28",
+            "EndedOffsetInSeconds": "88.40",
+            "Confidence": "0.59"
+          },
+          {
+            "Word": " par",
+            "StartedOffsetInSeconds": "88.42",
+            "EndedOffsetInSeconds": "88.56",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " mail",
+            "StartedOffsetInSeconds": "88.62",
+            "EndedOffsetInSeconds": "88.80",
+            "Confidence": "0.78"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "88.82",
+            "EndedOffsetInSeconds": "88.90",
+            "Confidence": "0.78"
+          },
+          {
+            "Word": " la",
+            "StartedOffsetInSeconds": "88.88",
+            "EndedOffsetInSeconds": "89.00",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " suite",
+            "StartedOffsetInSeconds": "89.08",
+            "EndedOffsetInSeconds": "89.28",
+            "Confidence": "1"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "89.28",
+            "EndedOffsetInSeconds": "89.40",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " cet",
+            "StartedOffsetInSeconds": "89.44",
+            "EndedOffsetInSeconds": "89.60",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " appel.",
+            "StartedOffsetInSeconds": "89.66",
+            "EndedOffsetInSeconds": "89.94",
+            "Confidence": "0.94"
+          }
+        ],
+        "StartedOffsetInSeconds": "84.64",
+        "EndedOffsetInSeconds": "89.94",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Vous disposez également d'un délai de rétractation de 14 jours à compter de ce jour, c'est la loi.",
+        "Words": [
+          {
+            "Word": " Vous",
+            "StartedOffsetInSeconds": "91.16",
+            "EndedOffsetInSeconds": "91.30",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " disposez",
+            "StartedOffsetInSeconds": "91.32",
+            "EndedOffsetInSeconds": "91.96",
+            "Confidence": "0.9"
+          },
+          {
+            "Word": " également",
+            "StartedOffsetInSeconds": "92.24",
+            "EndedOffsetInSeconds": "92.72",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " d'un",
+            "StartedOffsetInSeconds": "92.78",
+            "EndedOffsetInSeconds": "92.94",
+            "Confidence": "0.88"
+          },
+          {
+            "Word": " délai",
+            "StartedOffsetInSeconds": "93.00",
+            "EndedOffsetInSeconds": "93.28",
+            "Confidence": "0.82"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "93.30",
+            "EndedOffsetInSeconds": "93.42",
+            "Confidence": "1"
+          },
+          {
+            "Word": " rétractation",
+            "StartedOffsetInSeconds": "93.48",
+            "EndedOffsetInSeconds": "94.24",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "94.28",
+            "EndedOffsetInSeconds": "94.40",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " 14",
+            "StartedOffsetInSeconds": "94.46",
+            "EndedOffsetInSeconds": "94.92",
+            "Confidence": "0.31"
+          },
+          {
+            "Word": " jours",
+            "StartedOffsetInSeconds": "94.94",
+            "EndedOffsetInSeconds": "95.14",
+            "Confidence": "0.93"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "95.14",
+            "EndedOffsetInSeconds": "95.24",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " compter",
+            "StartedOffsetInSeconds": "95.28",
+            "EndedOffsetInSeconds": "95.58",
+            "Confidence": "0.79"
+          },
+          {
+            "Word": " de",
+            "StartedOffsetInSeconds": "95.58",
+            "EndedOffsetInSeconds": "95.70",
+            "Confidence": "0.97"
+          },
+          {
+            "Word": " ce",
+            "StartedOffsetInSeconds": "95.74",
+            "EndedOffsetInSeconds": "95.86",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " jour,",
+            "StartedOffsetInSeconds": "95.94",
+            "EndedOffsetInSeconds": "96.10",
+            "Confidence": "0.88"
+          },
+          {
+            "Word": " c'est",
+            "StartedOffsetInSeconds": "96.20",
+            "EndedOffsetInSeconds": "96.36",
+            "Confidence": "0.77"
+          },
+          {
+            "Word": " la",
+            "StartedOffsetInSeconds": "96.36",
+            "EndedOffsetInSeconds": "96.46",
+            "Confidence": "1"
+          },
+          {
+            "Word": " loi.",
+            "StartedOffsetInSeconds": "96.50",
+            "EndedOffsetInSeconds": "96.64",
+            "Confidence": "1"
+          }
+        ],
+        "StartedOffsetInSeconds": "91.16",
+        "EndedOffsetInSeconds": "96.64",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Pour plus d'informations, rendez-vous sur notre site www.buicktelecom.fr rubrique tarifs et conditions.",
+        "Words": [
+          {
+            "Word": " Pour",
+            "StartedOffsetInSeconds": "97.30",
+            "EndedOffsetInSeconds": "97.42",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " plus",
+            "StartedOffsetInSeconds": "97.48",
+            "EndedOffsetInSeconds": "97.64",
+            "Confidence": "1"
+          },
+          {
+            "Word": " d'informations,",
+            "StartedOffsetInSeconds": "97.68",
+            "EndedOffsetInSeconds": "98.50",
+            "Confidence": "0.93"
+          },
+          {
+            "Word": " rendez-vous",
+            "StartedOffsetInSeconds": "99.62",
+            "EndedOffsetInSeconds": "100.10",
+            "Confidence": "0.7"
+          },
+          {
+            "Word": " sur",
+            "StartedOffsetInSeconds": "100.16",
+            "EndedOffsetInSeconds": "100.28",
+            "Confidence": "1"
+          },
+          {
+            "Word": " notre",
+            "StartedOffsetInSeconds": "100.32",
+            "EndedOffsetInSeconds": "100.58",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " site",
+            "StartedOffsetInSeconds": "100.68",
+            "EndedOffsetInSeconds": "100.88",
+            "Confidence": "0.8"
+          },
+          {
+            "Word": " www.buicktelecom.fr",
+            "StartedOffsetInSeconds": "100.88",
+            "EndedOffsetInSeconds": "102.14",
+            "Confidence": "0.56"
+          },
+          {
+            "Word": " rubrique",
+            "StartedOffsetInSeconds": "102.20",
+            "EndedOffsetInSeconds": "102.58",
+            "Confidence": "0.74"
+          },
+          {
+            "Word": " tarifs",
+            "StartedOffsetInSeconds": "102.60",
+            "EndedOffsetInSeconds": "102.98",
+            "Confidence": "0.88"
+          },
+          {
+            "Word": " et",
+            "StartedOffsetInSeconds": "102.98",
+            "EndedOffsetInSeconds": "103.08",
+            "Confidence": "0.75"
+          },
+          {
+            "Word": " conditions.",
+            "StartedOffsetInSeconds": "103.10",
+            "EndedOffsetInSeconds": "103.66",
+            "Confidence": "0.92"
+          }
+        ],
+        "StartedOffsetInSeconds": "97.30",
+        "EndedOffsetInSeconds": "103.66",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "C'est bon pour vous ?",
+        "Words": [
+          {
+            "Word": " C'est",
+            "StartedOffsetInSeconds": "104.24",
+            "EndedOffsetInSeconds": "104.38",
+            "Confidence": "0.86"
+          },
+          {
+            "Word": " bon",
+            "StartedOffsetInSeconds": "104.40",
+            "EndedOffsetInSeconds": "104.52",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "104.58",
+            "EndedOffsetInSeconds": "104.74",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " vous ?",
+            "StartedOffsetInSeconds": "104.80",
+            "EndedOffsetInSeconds": "104.94",
+            "Confidence": "0.89"
+          }
+        ],
+        "StartedOffsetInSeconds": "104.24",
+        "EndedOffsetInSeconds": "104.94",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "C'est bon pour moi, oui.",
+        "Words": [
+          {
+            "Word": " C'est",
+            "StartedOffsetInSeconds": "106.00",
+            "EndedOffsetInSeconds": "106.12",
+            "Confidence": "0.36"
+          },
+          {
+            "Word": " bon",
+            "StartedOffsetInSeconds": "106.12",
+            "EndedOffsetInSeconds": "106.24",
+            "Confidence": "0.17"
+          },
+          {
+            "Word": " pour",
+            "StartedOffsetInSeconds": "106.26",
+            "EndedOffsetInSeconds": "106.38",
+            "Confidence": "0.34"
+          },
+          {
+            "Word": " moi,",
+            "StartedOffsetInSeconds": "106.42",
+            "EndedOffsetInSeconds": "106.54",
+            "Confidence": "0.22"
+          },
+          {
+            "Word": " oui.",
+            "StartedOffsetInSeconds": "106.62",
+            "EndedOffsetInSeconds": "106.74",
+            "Confidence": "0.09"
+          }
+        ],
+        "StartedOffsetInSeconds": "106.00",
+        "EndedOffsetInSeconds": "106.74",
+        "Speaker": 1,
+        "Channel": 0
+      },
+      {
+        "Text": "Parfait.",
+        "Words": [
+          {
+            "Word": " Parfait.",
+            "StartedOffsetInSeconds": "107.34",
+            "EndedOffsetInSeconds": "107.72",
+            "Confidence": "0.64"
+          }
+        ],
+        "StartedOffsetInSeconds": "107.34",
+        "EndedOffsetInSeconds": "107.72",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Vous gardez aussi accès à votre espace client si au cas où vous souhaitez faire des changements.",
+        "Words": [
+          {
+            "Word": " Vous",
+            "StartedOffsetInSeconds": "107.78",
+            "EndedOffsetInSeconds": "107.90",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " gardez",
+            "StartedOffsetInSeconds": "107.94",
+            "EndedOffsetInSeconds": "108.24",
+            "Confidence": "1"
+          },
+          {
+            "Word": " aussi",
+            "StartedOffsetInSeconds": "108.26",
+            "EndedOffsetInSeconds": "108.48",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " accès",
+            "StartedOffsetInSeconds": "108.56",
+            "EndedOffsetInSeconds": "108.82",
+            "Confidence": "1"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "108.82",
+            "EndedOffsetInSeconds": "108.90",
+            "Confidence": "0.99"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "108.92",
+            "EndedOffsetInSeconds": "109.12",
+            "Confidence": "1"
+          },
+          {
+            "Word": " espace",
+            "StartedOffsetInSeconds": "109.16",
+            "EndedOffsetInSeconds": "109.48",
+            "Confidence": "0.9"
+          },
+          {
+            "Word": " client",
+            "StartedOffsetInSeconds": "109.52",
+            "EndedOffsetInSeconds": "110.56",
+            "Confidence": "0.63"
+          },
+          {
+            "Word": " si",
+            "StartedOffsetInSeconds": "110.56",
+            "EndedOffsetInSeconds": "110.68",
+            "Confidence": "0.41"
+          },
+          {
+            "Word": " au",
+            "StartedOffsetInSeconds": "110.68",
+            "EndedOffsetInSeconds": "110.80",
+            "Confidence": "0.86"
+          },
+          {
+            "Word": " cas",
+            "StartedOffsetInSeconds": "110.84",
+            "EndedOffsetInSeconds": "110.96",
+            "Confidence": "0.47"
+          },
+          {
+            "Word": " où",
+            "StartedOffsetInSeconds": "110.96",
+            "EndedOffsetInSeconds": "111.06",
+            "Confidence": "0.69"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "111.08",
+            "EndedOffsetInSeconds": "111.20",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " souhaitez",
+            "StartedOffsetInSeconds": "111.26",
+            "EndedOffsetInSeconds": "111.68",
+            "Confidence": "0.85"
+          },
+          {
+            "Word": " faire",
+            "StartedOffsetInSeconds": "111.98",
+            "EndedOffsetInSeconds": "112.18",
+            "Confidence": "0.94"
+          },
+          {
+            "Word": " des",
+            "StartedOffsetInSeconds": "112.20",
+            "EndedOffsetInSeconds": "112.32",
+            "Confidence": "1"
+          },
+          {
+            "Word": " changements.",
+            "StartedOffsetInSeconds": "112.36",
+            "EndedOffsetInSeconds": "112.92",
+            "Confidence": "0.95"
+          }
+        ],
+        "StartedOffsetInSeconds": "107.78",
+        "EndedOffsetInSeconds": "112.92",
+        "Speaker": 0,
+        "Channel": 0
+      },
+      {
+        "Text": "Si vous souhaitez accéder à vos factures, tout ça grâce à votre espace client, vous serez au...",
+        "Words": [
+          {
+            "Word": " Si",
+            "StartedOffsetInSeconds": "113.20",
+            "EndedOffsetInSeconds": "113.32",
+            "Confidence": "0.51"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "113.37",
+            "EndedOffsetInSeconds": "113.51",
+            "Confidence": "0.34"
+          },
+          {
+            "Word": " souhaitez",
+            "StartedOffsetInSeconds": "113.55",
+            "EndedOffsetInSeconds": "113.85",
+            "Confidence": "0.31"
+          },
+          {
+            "Word": " accéder",
+            "StartedOffsetInSeconds": "113.89",
+            "EndedOffsetInSeconds": "114.29",
+            "Confidence": "0.39"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "114.29",
+            "EndedOffsetInSeconds": "114.35",
+            "Confidence": "0.91"
+          },
+          {
+            "Word": " vos",
+            "StartedOffsetInSeconds": "114.37",
+            "EndedOffsetInSeconds": "114.53",
+            "Confidence": "0.12"
+          },
+          {
+            "Word": " factures,",
+            "StartedOffsetInSeconds": "114.53",
+            "EndedOffsetInSeconds": "114.97",
+            "Confidence": "0.46"
+          },
+          {
+            "Word": " tout",
+            "StartedOffsetInSeconds": "114.99",
+            "EndedOffsetInSeconds": "115.12",
+            "Confidence": "0.04"
+          },
+          {
+            "Word": " ça",
+            "StartedOffsetInSeconds": "115.12",
+            "EndedOffsetInSeconds": "115.24",
+            "Confidence": "0.96"
+          },
+          {
+            "Word": " grâce",
+            "StartedOffsetInSeconds": "115.30",
+            "EndedOffsetInSeconds": "115.54",
+            "Confidence": "0.28"
+          },
+          {
+            "Word": " à",
+            "StartedOffsetInSeconds": "115.54",
+            "EndedOffsetInSeconds": "115.60",
+            "Confidence": "0.98"
+          },
+          {
+            "Word": " votre",
+            "StartedOffsetInSeconds": "115.62",
+            "EndedOffsetInSeconds": "115.82",
+            "Confidence": "0.23"
+          },
+          {
+            "Word": " espace",
+            "StartedOffsetInSeconds": "115.84",
+            "EndedOffsetInSeconds": "116.18",
+            "Confidence": "0.47"
+          },
+          {
+            "Word": " client,",
+            "StartedOffsetInSeconds": "116.18",
+            "EndedOffsetInSeconds": "116.54",
+            "Confidence": "0.57"
+          },
+          {
+            "Word": " vous",
+            "StartedOffsetInSeconds": "116.54",
+            "EndedOffsetInSeconds": "116.66",
+            "Confidence": "0.32"
+          },
+          {
+            "Word": " serez",
+            "StartedOffsetInSeconds": "116.68",
+            "EndedOffsetInSeconds": "116.85",
+            "Confidence": "0.22"
+          },
+          {
+            "Word": " au...",
+            "StartedOffsetInSeconds": "116.85",
+            "EndedOffsetInSeconds": "116.97",
+            "Confidence": "0.27"
+          }
+        ],
+        "StartedOffsetInSeconds": "113.20",
+        "EndedOffsetInSeconds": "116.97",
+        "Speaker": 0,
+        "Channel": 0
+      }
+    ],
+    "AudioUrl": "https://api.gladia.io/file/b735d6b1-821c-4a23-82ef-32636a2bbff0"
+  },
+  "CallDetails": {
+    "AgentId": null,
+    "FileIntegratedAt": "2024-11-26T16:23:41.000Z",
+    "DurationInSeconds": "117.694",
+    "TeamName": null,
+    "CallCenterName": null
+  },
+  "Evaluation": {
+    "StartedAt": "2024-11-26T16:35:44.542Z",
+    "EndedAt": "2024-11-26T16:36:40.777Z",
+    "IsObjectiveReached": true,
+    "CompliantStatus": "NonCompliant",
+    "Score": "38",
+    "MaxScore": "40",
+    "MinPartialScore": null,
+    "MaxPartialScore": null,
+    "GradedCriteria": [
+      {
+        "Category": "ACCUEIL",
+        "CriterionName": "Identité client",
+        "Comment": "L'agent a confirmé le nom complet du client ainsi que son adresse au début de l'appel.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "18.58",
+            "Reason": "L'agent confirme le nom complet et l'adresse du client."
+          }
+        ]
+      },
+      {
+        "Category": "OFFRE",
+        "CriterionName": "Présentation de l'offre",
+        "Comment": "L'agent a fourni les détails précis de l'offre, y compris le prix réduit et les conditions associées.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "30.31",
+            "Reason": "L'agent présente les détails de la nouvelle offre, y compris le prix réduit."
+          }
+        ]
+      },
+      {
+        "Category": "OFFRE",
+        "CriterionName": "Engagement",
+        "Comment": "L'agent a clairement informé le client du réengagement de 12 mois pour la nouvelle offre.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "63.33",
+            "Reason": "L'agent informe le client de la durée de réengagement pour la nouvelle offre."
+          }
+        ]
+      },
+      {
+        "Category": "FACTURATION",
+        "CriterionName": "Date de facturation",
+        "Comment": "L'agent n'a pas mentionné explicitement la date de facturation, mais a discuté des détails tarifaires.",
+        "Appreciation": "partiellement conforme",
+        "CompliantStatus": "PartiallyCompliant",
+        "Score": "3",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "31.47",
+            "Reason": "L'agent discute du prix et de la facturation de l'offre, bien qu'il n’évoque pas explicitement la date de facturation."
+          }
+        ]
+      },
+      {
+        "Category": "CGV",
+        "CriterionName": "Indications CGV",
+        "Comment": "L'agent a orienté le client vers le site web pour plus d'informations sur les tarifs et les conditions générales de vente.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "97.30",
+            "Reason": "L'agent oriente le client vers le site web pour plus d’informations sur les tarifs et les conditions générales de vente."
+          }
+        ]
+      },
+      {
+        "Category": "OFFRE",
+        "CriterionName": "Délai de rétractation",
+        "Comment": "Le délai de rétractation de 14 jours a été correctement mentionné par l'agent.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "91.16",
+            "Reason": "L'agent mentionne clairement le délai de rétractation de 14 jours."
+          }
+        ]
+      },
+      {
+        "Category": "TARIFS",
+        "CriterionName": "Tarifs en vigueur",
+        "Comment": "L'agent a informé le client de la possibilité de consulter les tarifs en vigueur sur le site internet de l'entreprise.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "97.30",
+            "Reason": "L'agent invite le client à consulter les tarifs en vigueur sur le site internet."
+          }
+        ]
+      },
+      {
+        "Category": "OFFRE",
+        "CriterionName": "Clarté des informations",
+        "Comment": "L'agent a pris soin de vérifier à plusieurs reprises si le client comprenait l'offre et lui a donné l'occasion de poser des questions.",
+        "Appreciation": "conforme",
+        "CompliantStatus": "Compliant",
+        "Score": "5",
+        "MaxScore": "5",
+        "KeyPoints": [
+          {
+            "StartedOffsetInSeconds": "30.31",
+            "Reason": "L'agent prend soin de clarifier les informations de l'offre et incite le client à poser des questions tout au long de la conversation."
+          }
+        ]
+      }
+    ],
+    "Summary": "Lors de la conversation, l'agent confirme les détails avec le client, M. Ibrahima Jansan, concernant son changement d'offre de service internet. Il passe de l'offre B-Box Serre Spéciale Fibre à la nouvelle offre B-Box Must 866, avec une réduction de prix de 27,99€ à 18,99€ par mois pour 12 mois, occasionnant une économie de 23€ par mois. L'offre est réengageante pour un an et le deuxième année est sans engagement. L'agent informe également que toute cette procédure sera confirmée par SMS et email, et rappelle le droit de rétractation de 14 jours du client."
+  },
+  "FileDestination": "Omni",
+  "UpdatedAt": "2024-11-26T16:36:56.222Z",
+  "ExternalReferenceId": "671654d8887231647a753b65"
 }

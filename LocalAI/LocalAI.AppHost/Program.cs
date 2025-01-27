@@ -1,14 +1,15 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var ollama = builder.AddOllama("ollama")
+                    .WithContainerRuntimeArgs("--gpus=all")
                     .WithDataVolume()
                     .WithOpenWebUI();
 
-var phi3 = ollama.AddModel("phi3", "phi3");
+IResourceBuilder<OllamaModelResource> phi4 = ollama.AddModel("phi4", "phi4");
 
 builder.AddProject<Projects.LocalAI_Web>("webfrontend")
        .WithExternalHttpEndpoints()
-       .WithReference(phi3)
-       .WaitFor(phi3);
+       .WithReference(phi4)
+       .WaitFor(phi4);
 
 builder.Build().Run();
